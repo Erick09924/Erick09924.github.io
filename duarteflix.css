@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    margin: 0%;
+    padding: auto;
+    min-height: 100vh;
+}
+
+img{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+h1{
+    color: rgb(177, 17, 17);
+    text-align: center;
+    font-size: 60px;
+}
+
+
+h2{
+    color: red;
+    text-align: center;
+
+}
+
+a{
+    color: white;
+    display: block;
+  width: fit-content; 
+  margin: 0 auto
+
+}
+
+p {
+    color: red;
+    font-size: 25px;
+    margin-top: 100px;
+    text-align: center;
+
+}
