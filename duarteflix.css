@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #333333;;
     margin: 0%;
     padding: auto;
     min-height: 100vh;
@@ -26,7 +26,7 @@ h2{
 }
 
 a{
-    color: white;
+    color: red;
     display: block;
   width: fit-content; 
   margin: 0 auto
@@ -39,4 +39,52 @@ p {
     margin-top: 100px;
     text-align: center;
 
+}
+
+h3{
+    color: red;
+    text-align: center;
+
+}
+button{
+    background-color: #bb2020; 
+    color: rgba(0, 0, 0, 0.507);             
+    padding: 10px 20px;        
+    border: none;              
+    border-radius: 5px;        
+    cursor: pointer;          
+    font-size: 16px;          
+}
+button:hover {
+    background-color: #5f0505; /* Cor mais escura no hover */
+}
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left ;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    /* Ou simplesmente: margin: 0 auto; */
+    width: 80%; /* Opcional: define a largura da tabela */
+        color: #f10808
 }
